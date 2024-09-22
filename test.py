@@ -3,9 +3,10 @@ import streamlit as st
 import PyPDF2
 import requests
 from bs4 import BeautifulSoup
+import os
 
-# Get the API key from Streamlit secrets
-openai.api_key=
+# Get the API key from environment variables
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_path):
