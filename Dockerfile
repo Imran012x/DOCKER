@@ -18,5 +18,5 @@ ENV PYTHONUNBUFFERED=1
 ENV STREAMLIT_SERVER_PORT=8501
 
 # Command to run Streamlit
-CMD ["streamlit", "run", "your_script.py"]  # Replace with the actual filename
+CMD ["streamlit", "run", "test.py"]  # Replace with the actual filename
 
