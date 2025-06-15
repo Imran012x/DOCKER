@@ -1,5 +1,0 @@
-openai
-streamlit
-pypdf2
-beautifulsoup4
-requests
