@@ -11,7 +11,7 @@ def query_local_model(prompt, model="llama2"):
         response = requests.post(
             "https://4c94-103-166-39-101.ngrok-free.app/api/generate",
             json={
-                "model": "llama2",
+                "model": model,
                 "prompt": prompt,
                 "stream": False
             }
