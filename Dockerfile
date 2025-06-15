@@ -18,3 +18,9 @@ EXPOSE 8501
 
 # Command to run the Streamlit app
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.enableCORS=false"]
+
+
+# You want to package your app so it runs the same on any computer.
+# You want to automate setup (no more "works on my machine" problems!).
+# You want to ship your code + environment as one piece.
+
