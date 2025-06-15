@@ -9,7 +9,7 @@ import os
 def query_local_model(prompt, model="llama2"):
     try:
         response = requests.post(
-            "http://localhost:11434/api/generate",
+            "https://4c94-103-166-39-101.ngrok-free.app/api/generate",
             json={
                 "model": "llama2",
                 "prompt": prompt,
