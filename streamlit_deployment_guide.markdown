@@ -1,6 +1,5 @@
 # Streamlit Deployment Guide
 
-This guide provides detailed instructions for deploying a Streamlit application on various platforms, including file requirements, Dockerfile configurations, Kubernetes setup, DevOps processes, mandatory testing, and a comparison table. It covers platforms like Streamlit Cloud, Railway, Render, Heroku, Vercel, GitHub Pages, AWS, Azure, Google Cloud, Koyeb, Fly.io, and Kubernetes, with notes on exceptions for file types or deployment processes.
 
 ## File Requirements
 For most platforms, the core files required for Streamlit deployment are:
