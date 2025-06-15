@@ -86,7 +86,7 @@ uploaded_file = st.file_uploader("📂 Upload your PDF", type="pdf")
 question = st.text_input("❓ Ask a question from the PDF:")
 
 # Model selection (optional)
-model_name = st.selectbox("🤖 Choose local model", ["llama2", "mistral", "gemma"], index=0)
+model_name = st.selectbox("🤖 Choose local model", ["llama2", "mistral", "gemma","deepseek-r1"], index=0)
 
 # Answer button
 if st.button("🔍 Get Answer") and question and uploaded_file:
